@@ -21,7 +21,7 @@ The code was tested using [Tensorflow](https://www.tensorflow.org/) in Python 3.
 
 Coming soon!
 
-Note that the required multi-modal data can be downloaded either from
+Note that the required HSI and LiDAR data can be downloaded either from
 
 1. [drive.google](https://drive.google.com/file/d/17uroC22RdpVSgF2LtsjyMXfPVLw7fMPI/view?usp=sharing)
 
