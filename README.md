@@ -27,7 +27,7 @@ Note that the required HSI and LiDAR data can be downloaded either from
 
 2. [pan.baidu](https://pan.baidu.com/s/1jddCuQqIeO3CrNnBiK-Q0Q) with access code: `232c`.
 
-:exclamation: You may need to manualy download `HSI_TeSet.mat` and `HSI_TrSet.mat` located under `IEEE_TGRS_MDL-RS/MDL-RS_CNNs/HSI_LiDAR_CNN/` due to the large file restrction.
+:exclamation: You may need to manually download `HSI_TeSet.mat` and `HSI_TrSet.mat` located under `IEEE_TGRS_MDL-RS/MDL-RS_CNNs/HSI_LiDAR_CNN/` due to the large file restrction.
 
 If you want to run the code in your own data, you can accordingly change the input (e.g., data, labels) and tune the parameters.
 
