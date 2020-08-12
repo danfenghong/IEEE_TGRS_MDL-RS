@@ -6,7 +6,7 @@ ___________
 
 The code in this toolbox implements the ["More Diverse Means Better: Multimodal Deep Learning Meets Remote Sensing Imagery Classification"](Coming Soon!). More specifically, it is detailed as follow.
 
-![alt text](./workflow_MDL.png)
+![alt text](./Motivation.png)
 
 
 Citation
