@@ -31,11 +31,11 @@ How to use it?
 
 Here an example experiment is given by using Houston2013 hyperspectral and LiDAR data. Directly run .py functions with different networks to produce the results. Please note that due to the randomness of the parameter initialization, the experimental results might have slightly different from those reported in the paper.
 
-:exclamation: You may need to manually download `HSI_TeSet.mat` and `HSI_TrSet.mat` located under `IEEE_TGRS_MDL-RS/MDL-RS_CNNs/HSI_LiDAR_CNN/` due to the large file restrction.
-
 If you want to run the code in your own data, you can accordingly change the input (e.g., data, labels) and tune the parameters.
 
 If you encounter the bugs while using this code, please do not hesitate to contact us.
+
+:exclamation: The variables in `HSI_TeSet.mat` and `HSI_TrSet.mat` are converted to single-precision for efficient use of memory, which may cause slight admissible perturbation on actual results. You may need to manually download `HSI_TeSet.mat` and `HSI_TrSet.mat` located under `IEEE_TGRS_MDL-RS/MDL-RS_CNNs/HSI_LiDAR_CNN/` due to the large file restrction.
 
 Licensing
 ---------
