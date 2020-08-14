@@ -19,7 +19,7 @@ Citation
       author    = {D. Hong and L. Gao and N. Yokoya and J. Yao and J. Chanussot and Q. Du and B. Zhang},
       journal   = {IEEE Trans. Geosci. Remote Sens.}, 
       year      = {2020},
-      note      = {DOI:10.1109/TGRS.2020.3016820}
+      note      = {DOI:10.1109/TGRS.2020.3016820},
       publisher = {IEEE}
      }
 
