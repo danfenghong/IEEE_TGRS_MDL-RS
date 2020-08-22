@@ -31,11 +31,13 @@ How to use it?
 ---------------------
 This toolbox consists of two different network architectures, i.e., fully-connected networks (FC-Nets), convolutional neural networks (CNNs). Each of network architectures also includes different fusion networks. For more details, please refer to the paper.
 
-Here an example experiment is given by using Houston2013 hyperspectral and LiDAR data. Directly run .py functions with different networks to produce the results. Please note that due to the randomness of the parameter initialization, the experimental results might have slightly different from those reported in the paper.
+Here an example experiment is given by using **Houston2013 hyperspectral and LiDAR data**. Directly run .py functions with different networks to produce the results. Please note that due to the randomness of the parameter initialization, the experimental results might have slightly different from those reported in the paper.
 
 One trick to clarify the differences between cross-modality learning (CML) and multi-modality learning (MML) is the use of batch normalization (BN). In the test phase, the BN should be open in CML, while the BN should be close in MML. Because in CML, one modality is missing, i.e., it is set to be 0, in this case, the BN is close (i.e., using the mean vaule obtained from the training samples), it would generate the bad inference.
 
 :exclamation: You may need to manually download `HSI_TeSet.mat` and `HSI_TrSet.mat` to your local in the folder under path `IEEE_TGRS_MDL-RS/MDL-RS_CNNs/HSI_LiDAR_CNN/`, due to their too large file size.
+
+#If you are interested in LCZ classification datasets, please email us to obtain the download link!
 
 If you want to run the code in your own data, you can accordingly change the input (e.g., data, labels) and tune the parameters.
 
