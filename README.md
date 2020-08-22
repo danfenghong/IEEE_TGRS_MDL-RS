@@ -37,7 +37,7 @@ One trick to clarify the differences between cross-modality learning (CML) and m
 
 :exclamation: You may need to manually download `HSI_TeSet.mat` and `HSI_TrSet.mat` to your local in the folder under path `IEEE_TGRS_MDL-RS/MDL-RS_CNNs/HSI_LiDAR_CNN/`, due to their too large file size.
 
-#If you are interested in LCZ classification datasets, please email us to obtain the download link!
+# If you are interested in LCZ classification datasets, please email us to obtain the download link!
 
 If you want to run the code in your own data, you can accordingly change the input (e.g., data, labels) and tune the parameters.
 
