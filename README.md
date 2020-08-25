@@ -4,7 +4,7 @@
 
 ___________
 
-The code in this toolbox implements the ["More Diverse Means Better: Multimodal Deep Learning Meets Remote Sensing Imagery Classification"](Coming Soon!). More specifically, it is detailed as follow.
+The code in this toolbox implements the ["More Diverse Means Better: Multimodal Deep Learning Meets Remote-Sensing Imagery Classification"](https://ieeexplore.ieee.org/document/9174822). More specifically, it is detailed as follow.
 
 ![alt text](./Motivation.png)
 
