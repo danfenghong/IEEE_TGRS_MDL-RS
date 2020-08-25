@@ -15,7 +15,7 @@ Citation
 **Please kindly cite the papers if this code is useful and helpful for your research.**
 
      @article{hong2020more,
-      title     = {More Diverse Means Better: Multimodal Deep Learning Meets Remote Sensing Imagery Classification},
+      title     = {More Diverse Means Better: Multimodal Deep Learning Meets Remote-Sensing Imagery Classification},
       author    = {D. Hong and L. Gao and N. Yokoya and J. Yao and J. Chanussot and Q. Du and B. Zhang},
       journal   = {IEEE Trans. Geosci. Remote Sens.}, 
       year      = {2020},
