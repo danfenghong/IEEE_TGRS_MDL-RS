@@ -288,7 +288,7 @@ def train_mynetwork(x1_train_set, x2_train_set, x1_train_set_full, x2_train_set_
             epoch_acc = 0.
             num_minibatches = int(m / minibatch_size) # number of minibatches of size minibatch_size in the train set
             seed = seed + 1
-            minibatches = random_mini_batches(x1_train_set, x2_train_set, x1_train_set_full, x2_train_set_full, y_train_set, minibatch_size, seed)
+            minibatches = random_mini_full_batches(x1_train_set, x2_train_set, x1_train_set_full, x2_train_set_full, y_train_set, minibatch_size, seed)
             for minibatch in minibatches:
 
                 # Select a minibatch
