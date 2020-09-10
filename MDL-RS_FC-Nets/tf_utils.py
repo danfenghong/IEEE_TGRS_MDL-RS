@@ -42,33 +42,7 @@ def random_mini_batches_standard(X, Y, mini_batch_size, seed):
     
     return mini_batches
 
-def random_mini_batches(X1, X2, Y, mini_batch_size, seed):
-    
-    m = X1.shape[0]
-    m1 = X2.shape[0]
-    mini_batches = []
-    np.random.seed(seed)
-    
-    permutation = list(np.random.permutation(m))
-    shuffled_X1 = X1[permutation, :]
-    shuffled_Y = Y[permutation, :].reshape((m, Y.shape[1]))
-    
-    permutation1 = list(np.random.permutation(m1))
-    shuffled_X2 = X2[permutation1, :]
-    
-    num_complete_minibatches = math.floor(m1/mini_batch_size)
-    
-    mini_batch_X1 = shuffled_X1
-    mini_batch_Y = shuffled_Y
-      
-    for k in range(0, num_complete_minibatches):        
-        mini_batch_X2 = shuffled_X2[k * mini_batch_size : k * mini_batch_size + mini_batch_size, :]        
-        mini_batch = (mini_batch_X1, mini_batch_X2, mini_batch_Y)
-        mini_batches.append(mini_batch)
-    
-    return mini_batches
-
-def random_mini_full_batches(X1, X2, X1_FULL, X2_FULL, Y, mini_batch_size, seed):
+def random_mini_batches(X1, X2, X1_FULL, X2_FULL, Y, mini_batch_size, seed):
     
     m = X1.shape[0]                  # number of training examples
     mini_batches = []
