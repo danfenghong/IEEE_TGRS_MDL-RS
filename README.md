@@ -39,7 +39,7 @@ One trick to clarify the differences between cross-modality learning (CML) and m
 
 :exclamation: You may need to manually download `HSI_TeSet.mat` and `HSI_TrSet.mat` to your local in the folder under path `IEEE_TGRS_MDL-RS/MDL-RS_CNNs/HSI_LiDAR_CNN/`, due to their too large file size, from the following links of google drive or baiduyun:
 
-Google drive: https://drive.google.com/drive/folders/1ZY2s5vQnOjTuQasfpuiRrjp6yqaJF1J6?usp=sharing
+Google drive: https://drive.google.com/file/d/1vno8vQxCXgr7xk-Nez9CVbJmjkDMBCbe/view?usp=sharing
 
 Baiduyun:
 
