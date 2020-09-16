@@ -345,7 +345,7 @@ Y_test = convert_to_one_hot(TeLabel-1, 15)
 Y_train = Y_train.T
 Y_test = Y_test.T
 
-MODEL = 'CML-HSI' # 'MML': Multimodal learning (MML)
+MODEL = 'MML' # 'MML': Multimodal learning (MML)
               # 'CML-LiDAR':  Crossmodal learning (CML-LiDAR)
               # 'CML-HSI':  Crossmodal learning (CML-HSI)
 
