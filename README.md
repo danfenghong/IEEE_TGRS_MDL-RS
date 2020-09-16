@@ -37,7 +37,7 @@ Here an example experiment is given by using **Houston2013 hyperspectral and LiD
 
 One trick to clarify the differences between cross-modality learning (CML) and multi-modality learning (MML) is the use of batch normalization (BN). In the test phase, the BN should be open in CML, while the BN should be close in MML. Because in CML, one modality is missing, i.e., it is set to be 0, in this case, the BN is close (i.e., using the mean vaule obtained from the training samples), it would generate the bad inference.
 
-:exclamation: You may need to manually download `HSI_TeSet.mat` and `HSI_TrSet.mat` to your local in the folder under path `IEEE_TGRS_MDL-RS/MDL-RS_CNNs/HSI_LiDAR_CNN/`, due to their too large file size, by using the following links of google drive or baiduyun:
+:exclamation: You may need to manually download `HSI_TeSet.mat` and `HSI_TrSet.mat` to your local in the folder under path `IEEE_TGRS_MDL-RS/MDL-RS_CNNs/HSI_LiDAR_CNN/`, due to their too large file size, from the following links of google drive or baiduyun:
 
 Google drive:
 
