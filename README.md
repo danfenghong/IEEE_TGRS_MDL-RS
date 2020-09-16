@@ -41,7 +41,7 @@ One trick to clarify the differences between cross-modality learning (CML) and m
 
 Google drive: https://drive.google.com/file/d/1vno8vQxCXgr7xk-Nez9CVbJmjkDMBCbe/view?usp=sharing
 
-Baiduyun:
+Baiduyun: https://pan.baidu.com/s/1ug_tKyrbwg_CzHGpB2YK2A (access code: hfw3)
 
 
 **If you are interested in LCZ classification datasets, please email us to obtain the download link!**
