@@ -14,14 +14,16 @@ Citation
 
 **Please kindly cite the papers if this code is useful and helpful for your research.**
 
-Danfeng Hong, Lianru Gao, Naoto Yokoya, Jing Yao, Jocelyn Chanussot, Qian Du, Bing Zhang. More Diverse Means Better: Multimodal Deep Learning Meets Remote-Sensing Imagery Classification, IEEE Transactions on Geoscience and Remote Sensing, 2020, DOI: 10.1109/TGRS.2020.3016820. 
+Danfeng Hong, Lianru Gao, Naoto Yokoya, Jing Yao, Jocelyn Chanussot, Qian Du, Bing Zhang. More Diverse Means Better: Multimodal Deep Learning Meets Remote-Sensing Imagery Classification, IEEE Transactions on Geoscience and Remote Sensing, 2021, 59(5): 4340-4354, DOI: 10.1109/TGRS.2020.3016820. 
 
-     @article{hong2020more,
+     @article{hong2021more,
       title     = {More Diverse Means Better: Multimodal Deep Learning Meets Remote-Sensing Imagery Classification},
       author    = {D. Hong and L. Gao and N. Yokoya and J. Yao and J. Chanussot and Q. Du and B. Zhang},
       journal   = {IEEE Trans. Geosci. Remote Sens.}, 
-      year      = {2020},
-      note      = {DOI:10.1109/TGRS.2020.3016820},
+      volume    = {59},
+      number    = {5},
+      pages     = {4340--4354},
+      year      = {2021},
       publisher = {IEEE}
      }
 
