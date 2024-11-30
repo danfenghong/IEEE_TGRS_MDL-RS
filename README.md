@@ -1,6 +1,6 @@
 # More Diverse Means Better: Multimodal Deep Learning Meets Remote-Sensing Imagery Classification
 
-[Danfeng Hong](https://sites.google.com/view/danfeng-hong), Lianru Gao, [Naoto Yokoya](https://naotoyokoya.com/), Jing Yao, [Jocelyn Chanussot](http://jocelyn-chanussot.net/), [Qian Du](https://scholar.google.com/citations?user=0OdKQoQAAAAJ&hl=en), [Bing Zhang](http://english.radi.cas.cn/Education/PhDS/201401/t20140109_115415.html)
+[Danfeng Hong](https://sites.google.com/view/danfeng-hong), Lianru Gao, Naoto Yokoya, Jing Yao, Jocelyn Chanussot, Qian Du, Bing Zhang
 
 ___________
 
